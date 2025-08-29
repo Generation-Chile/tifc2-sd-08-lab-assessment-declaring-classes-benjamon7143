@@ -5,11 +5,11 @@ export class Player {
   }
 
   info() {
-    console.log(`${this.name} ha alcanzado el nivel ${this.level}!`);
+    console.log(`${this.name} has reached Level ${this.level}!`);
   }
 
   levelUp() {
     this.level += 1;
-    console.log(`${this.name} ha subido al nivel ${this.level}!`);
+    console.log(`${this.name} has reached Level ${this.level}!`);
   }
 }
